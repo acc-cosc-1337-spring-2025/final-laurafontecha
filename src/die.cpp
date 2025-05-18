@@ -11,5 +11,5 @@ int Die::roll()
         std::srand(static_cast<unsigned int> (std::time(nullptr)));
         seeded = true;
     }
-    return (std::rand()% sides)+1;
+    return (std::rand()% 6) + 1;
 }

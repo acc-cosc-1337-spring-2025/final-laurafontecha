@@ -5,7 +5,7 @@ void Roll::roll_dice()
 {
     int value1 = die1.roll();
     int value2 = die2.roll();
-    rolled_value = value1 = value2;
+    rolled_value = value1 + value2;
 
 }
 int Roll::roll_value() const
